@@ -1,0 +1,20 @@
+# PBS flags
+queue: express
+project: x77
+walltime: 0:30:00
+ncpus: 8
+mem: 16GB
+jobname: double_gyre
+collate_walltime: 0:30:00
+collate_mem: 30GB
+# Model config
+model: mom6
+# model: gold
+shortpath: /short/v45
+exe: MOM6_release
+input: double_gyre
+priority: 15
+stacksize: unlimited 
+
+runlog: true
+
