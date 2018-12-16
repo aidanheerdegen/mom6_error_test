@@ -21,3 +21,4 @@ stacksize: unlimited
 
 runlog: true
 
+postscript: ls.sh
