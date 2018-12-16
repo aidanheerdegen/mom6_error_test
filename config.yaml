@@ -14,7 +14,7 @@ collate_mem: 30GB
 model: mom6
 # model: gold
 shortpath: /short/v45
-exe: MOM6_release
+exe: MOM6_opt
 input: double_gyre
 priority: 15
 stacksize: unlimited 
