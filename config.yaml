@@ -9,7 +9,7 @@ runspersub: 10
 
 collate: true
 collate_walltime: 0:30:00
-collate_mem: 30GB
+collate_mem: 1GB
 # Model config
 model: mom6
 # model: gold
