@@ -1,0 +1,9 @@
+format: yamanifest
+githash: 71a820b3d7803dca98559d08fc86d792eac5f231
+version: 1.0
+---
+work/MOM6_opt:
+  fullpath: /short/v45/aph502/mom6/bin/MOM6_opt
+  hashes:
+    binhash: 8ad512f00c0d9cf754cb33ea1955388f
+    md5: d03c5e6146417519148fd97a5b607c86

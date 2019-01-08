@@ -1,0 +1,14 @@
+format: yamanifest
+githash: 71a820b3d7803dca98559d08fc86d792eac5f231
+version: 1.0
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart008/MOM.res.nc
+  hashes:
+    binhash: eb94ed05adbf389fc429abb9376a1305
+    md5: 7066523a9a35c746f04ac58e7a1d67f5
+work/INPUT/ocean_solo.res:
+  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart008/ocean_solo.res
+  hashes:
+    binhash: fc1a7ee3c35bb5a38cd6ad43123cff26
+    md5: dbd4c2aaf88f346f7c174176a826ce92

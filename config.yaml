@@ -7,9 +7,10 @@ mem: 4GB
 jobname: double_gyre
 runspersub: 10
 
-collate: true
-collate_walltime: 0:30:00
-collate_mem: 1GB
+collate:
+    walltime: 0:30:00
+    mem: 1GB
+
 # Model config
 model: mom6
 # model: gold

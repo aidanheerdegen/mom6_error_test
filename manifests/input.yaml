@@ -1,0 +1,19 @@
+format: yamanifest
+githash: 71a820b3d7803dca98559d08fc86d792eac5f231
+version: 1.0
+---
+work/INPUT/Depth_list.nc:
+  fullpath: /short/v45/aph502/mom6/input/double_gyre/Depth_list.nc
+  hashes:
+    binhash: 0179c900f00163f6311d0df30637e72c
+    md5: 6c0f063df1c05c1eb3bff56795429d88
+work/INPUT/Vertical_coordinate.nc:
+  fullpath: /short/v45/aph502/mom6/input/double_gyre/Vertical_coordinate.nc
+  hashes:
+    binhash: 292ac911b54b9cab6e62a0147da4a098
+    md5: 724e84f27a19ff48d592bf4f88c17054
+work/INPUT/ocean_geometry.nc:
+  fullpath: /short/v45/aph502/mom6/input/double_gyre/ocean_geometry.nc
+  hashes:
+    binhash: bf6f4eba2ddc63edff2e55ad2f5f0aab
+    md5: 4f332ed206343809e8cfc01e51f6f72e
