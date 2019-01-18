@@ -23,3 +23,6 @@ stacksize: unlimited
 runlog: true
 
 postscript: ls.sh
+
+manifest:
+    scaninputs: False
