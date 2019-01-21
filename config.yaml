@@ -22,7 +22,7 @@ stacksize: unlimited
 
 runlog: true
 
-postscript: ls.sh
+# postscript: ls.sh
 
 manifest:
     scaninputs: False
