@@ -2,17 +2,12 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/MOM.res.nc:
-  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart021/MOM.res.nc
+  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart022/MOM.res.nc
   hashes:
-    binhash: 66a5ba7ccdef0c8e09e3cb07ede4f047
-    md5: dc12650043aa9631c8f285e9b45ae396
-work/INPUT/MOM.res_Y0001_D221_S00000.nc:
-  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart021/MOM.res_Y0001_D221_S00000.nc
-  hashes:
-    binhash: b4800c7f1eb49d752ee133018ef57faa
-    md5: a39ec5cdfe3c5d27a58aaf8dcd2a4112
+    binhash: 1da6c105e620e5d3c76d8384c30a0a6a
+    md5: 959064cb9b7b39225349a0699ee178eb
 work/INPUT/ocean_solo.res:
-  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart021/ocean_solo.res
+  fullpath: /short/v45/aph502/mom6/archive/double_gyre_test/restart022/ocean_solo.res
   hashes:
-    binhash: 63b7164183763146e7d9015a462fb7e1
-    md5: b7970bc2aeaff1c81c1817b6fef58914
+    binhash: 669062a66bf3fca3e5a5189c838c2f2c
+    md5: dfb35fe324e99134626a005760e505d1

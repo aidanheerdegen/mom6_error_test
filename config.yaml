@@ -8,6 +8,8 @@ jobname: double_gyre
 runspersub: 10
 
 collate:
+    enable: False
+    restart: True
     walltime: 0:30:00
     mem: 1GB
 
