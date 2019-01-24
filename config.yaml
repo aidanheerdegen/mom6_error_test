@@ -8,14 +8,13 @@ jobname: double_gyre
 runspersub: 10
 
 collate:
-#     enable: False
+    enable: False
     restart: True
     walltime: 0:30:00
     mem: 1GB
 
 # Model config
 model: mom6
-# model: gold
 shortpath: /short/v45
 exe: MOM6_opt
 input: double_gyre
