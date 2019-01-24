@@ -2,7 +2,7 @@
 queue: express
 project: x77
 walltime: 0:30:00
-ncpus: 4
+ncpus: 2
 mem: 4GB
 jobname: double_gyre
 runspersub: 10
