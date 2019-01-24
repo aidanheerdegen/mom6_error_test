@@ -1,5 +1,5 @@
 ! Blank file in which we can put "overrides" for parameters
-#override DT = 2400.0
+#override DT = 2400.0.00000
 #override DT_FORCING = 86400.0
 #override DT_THERM = 86400.0
 U_TRUNC_FILE = "U_truncations"
