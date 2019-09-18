@@ -1,7 +1,4 @@
 ! Blank file in which we can put "overrides" for parameters
-#override DT = 1002400.0
-#override DT_FORCING = 86400.0
-#override DT_THERM = 86400.0
 U_TRUNC_FILE = "U_truncations"
 V_TRUNC_FILE = "V_truncations"
 REPORT_UNUSED_PARAMS = True
