@@ -15,8 +15,8 @@ collate:
 
 # Model config
 model: mom6
-shortpath: /short/v45
-exe: MOM6_opt
+shortpath: /scratch/v45
+exe: MOM6-25Jan2020
 input: double_gyre
 priority: 15
 stacksize: unlimited 
