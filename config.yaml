@@ -21,9 +21,9 @@ input: double_gyre
 priority: 15
 stacksize: unlimited 
 
+repeat: True
+
 runlog: true
 
-# postscript: ls.sh
-
-manifest:
-    scaninputs: False
+runscripts:
+        error: ls.sh
