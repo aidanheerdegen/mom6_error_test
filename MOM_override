@@ -7,3 +7,4 @@ FATAL_UNUSED_PARAMS = True
 ! DEBUG = True
 ! DEBUG_TRUNCATIONS = True
 #override DAYMAX = 20
+DT = 10000000.
