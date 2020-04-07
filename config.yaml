@@ -25,5 +25,5 @@ repeat: True
 
 runlog: true
 
-runscripts:
+userscripts:
      error: ls.sh
