@@ -26,4 +26,4 @@ repeat: True
 runlog: true
 
 userscripts:
-     error: ls.sh
+     error: resub.sh
