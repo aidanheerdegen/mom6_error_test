@@ -5,8 +5,8 @@ counterfile='resubmit.count'
 outfile='mom6.err'
 
 # Define errors from which a resubmit is appropriate
-declare -a errors={"DT found with multiple inconsistent definitions", 
-                   "Segmentation fault: address not mapped to object"}
+declare -a errors=("DT found with multiple inconsistent definitions", 
+                   "Segmentation fault: address not mapped to object")
 
 resub=false
 for error in "${errors[@]}"
