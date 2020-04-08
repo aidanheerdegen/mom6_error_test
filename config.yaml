@@ -27,3 +27,4 @@ runlog: true
 
 userscripts:
      error: resub.sh
+     run: rm -f resubmit.count
