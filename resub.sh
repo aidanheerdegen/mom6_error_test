@@ -21,7 +21,7 @@ do
   fi
 done
 
-if ! resub
+if ! ${resub}
 then
   echo "Error not eligible for resubmission" >> ${logfile}
   exit 0
