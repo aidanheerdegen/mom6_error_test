@@ -4,6 +4,8 @@ logfile='resubmit.log'
 counterfile='resubmit.count'
 outfile='mom6.err'
 
+MAX_RESUBMISSIONS=3
+
 # Define errors from which a resubmit is appropriate
 declare -a errors=( 
                    "Segmentation fault: address not mapped to object",
@@ -34,7 +36,7 @@ then
   PAYU_N_RESUB=$(cat ${counterfile})
 else
   echo "Reset resubmission counter" >> ${logfile}
-  PAYU_N_RESUB=3
+  PAYU_N_RESUB=${MAX_RESUBMISSIONS}
 fi
 
 echo "Resubmission counter: ${PAYU_N_RESUB}" >> ${logfile}
