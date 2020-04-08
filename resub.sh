@@ -11,7 +11,7 @@ declare -a errors={"DT found with multiple inconsistent definitions",
 resub=false
 for error in "${errors[@]}"
 do
-  if grep -q error ${outfile}
+  if grep -q ${error} ${outfile}
   then
      resub=true
      break
@@ -20,7 +20,7 @@ done
 
 if ! resub
 then
-  echo "Error no eligible for resubmission" >> ${logfile}
+  echo "Error not eligible for resubmission" >> ${logfile}
   exit 0
 fi
 
