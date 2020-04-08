@@ -1,7 +1,7 @@
 The userscripts hook for an error script is now available on gadi under `conda/analysis3-20.01`.
 
 This repo contains a test `MOM6` configuration which implements automatic resubmission after 
-defined errors.
+user defined errors.
 
 In `config.yaml` script is defined to run on error and a command to remove the resubmit 
 counter file when a run is successful:
@@ -12,7 +12,7 @@ The `error` userscript is `resub.sh`:
 
 https://github.com/aidanheerdegen/mom6_error_test/blob/master/resub.sh
 
-The outfile variable to is model dependent and may need to be changed:
+The `outfile` variable is model dependent and may need to be changed:
 
 https://github.com/aidanheerdegen/mom6_error_test/blob/master/resub.sh#L5
 
@@ -23,6 +23,6 @@ https://github.com/aidanheerdegen/mom6_error_test/blob/master/resub.sh#L5
 
 and will almost certainly need to changed.
 
-The maximum number of consecutive resubmissions is set here:
+The maximum number of consecutive resubmissions (`MAX_RESUBMISSIONS`) is set here:
 
 https://github.com/aidanheerdegen/mom6_error_test/blob/master/resub.sh#L7
