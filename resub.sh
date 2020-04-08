@@ -13,8 +13,11 @@ for error in "${errors[@]}"
 do
   if grep -q ${error} ${outfile}
   then
+     echo "Error found: ${error}" >> ${logfile}
      resub=true
      break
+  else
+     echo "Error not found: ${error}" >> ${logfile}
   fi
 done
 
