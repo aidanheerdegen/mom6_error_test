@@ -2,7 +2,7 @@
 
 logfile='resubmit.log'
 counterfile='resubmit.count'
-
+outfile='access-om2.err'
 
 # Define errors from which a resubmit is appropriate
 declare -a errors={"DT found with multiple inconsistent definitions", 

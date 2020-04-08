@@ -1,6 +1,6 @@
 # PBS flags
 queue: express
-project: x77
+project: v45
 walltime: 0:30:00
 ncpus: 2
 mem: 4GB
