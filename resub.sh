@@ -5,6 +5,7 @@ counterfile='resubmit.count'
 outfile='mom6.err'
 
 MAX_RESUBMISSIONS=3
+date >> ${logfile}
 
 # Define errors from which a resubmit is appropriate
 declare -a errors=( 
