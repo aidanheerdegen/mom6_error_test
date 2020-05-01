@@ -16,7 +16,7 @@ declare -a errors=(
 resub=false
 for error in "${errors[@]}"
 do
-  if grep -q ${error} ${outfile}
+  if grep -q "${error}" ${outfile}
   then
      echo "Error found: ${error}" >> ${logfile}
      resub=true
