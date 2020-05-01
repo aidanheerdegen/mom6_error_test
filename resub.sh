@@ -9,7 +9,7 @@ date >> ${logfile}
 
 # Define errors from which a resubmit is appropriate
 declare -a errors=( 
-                   "Segmentation fault: address not mapped to object",
+                   "Segmentation fault: address not mapped to object"
                    "DT found with multiple inconsistent definitions" 
 		  )
 
